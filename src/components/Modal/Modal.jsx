@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import css from './Modal.module.css';
 
 export const Modal = ({selectedPhoto, onClose}) => {
-  const {largeImageURL, tag} = selectedPhoto;
+  // const {largeImageURL, tag} = selectedPhoto;
   console.log(selectedPhoto);
 
   useEffect(() => {
@@ -25,9 +26,14 @@ export const Modal = ({selectedPhoto, onClose}) => {
     return (
       <div className={css.overlay} onClick={onClickOverlay}>
         <div className={css.modal}>
-          <img src={largeImageURL} alt={tag} />
+          <img src={selectedPhoto.largeImageURL} alt={selectedPhoto.tag} />
         </div>
       </div>
     );
 }
+
+Modal.propTypes = {
+  selectedPhoto: PropTypes.string.isRequired,
+  onClose: PropTypes.func.isRequired,
+};
 

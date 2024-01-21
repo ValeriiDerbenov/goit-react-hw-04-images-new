@@ -78,8 +78,8 @@ export const App = () => {
   const toggleModal = () => {
     setShowModal((prev) => !prev)
   }
-
-  const onOpenModal = (photo) => {   
+  
+  const onOpenModal = (photo) => {     
     setShowModal(true);
     setSelectedPhoto(photo);
   };
