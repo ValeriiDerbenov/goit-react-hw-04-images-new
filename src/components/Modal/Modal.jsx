@@ -4,7 +4,7 @@ import css from './Modal.module.css';
 
 export const Modal = ({selectedPhoto, onClose}) => {
   const {largeImageURL, tag} = selectedPhoto;
-  console.log(selectedPhoto);
+  // console.log(selectedPhoto);
 
   useEffect(() => {
     const onEscapeCloseModal = (event) => {
