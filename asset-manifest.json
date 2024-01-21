@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.5d45d96f.css",
+    "main.js": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.14b34697.js",
+    "index.html": "/ValeriiDerbenov/goit-react-hw-04-images-new/index.html",
+    "main.5d45d96f.css.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.5d45d96f.css.map",
+    "main.14b34697.js.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.14b34697.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d45d96f.css",
+    "static/js/main.14b34697.js"
+  ]
+}
