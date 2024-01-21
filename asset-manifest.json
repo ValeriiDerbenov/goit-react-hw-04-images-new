@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.5d45d96f.css",
-    "main.js": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.14b34697.js",
+    "main.css": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.8eed6a36.css",
+    "main.js": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.42bf1a99.js",
     "index.html": "/ValeriiDerbenov/goit-react-hw-04-images-new/index.html",
-    "main.5d45d96f.css.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.5d45d96f.css.map",
-    "main.14b34697.js.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.14b34697.js.map"
+    "main.8eed6a36.css.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/css/main.8eed6a36.css.map",
+    "main.42bf1a99.js.map": "/ValeriiDerbenov/goit-react-hw-04-images-new/static/js/main.42bf1a99.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d45d96f.css",
-    "static/js/main.14b34697.js"
+    "static/css/main.8eed6a36.css",
+    "static/js/main.42bf1a99.js"
   ]
 }
