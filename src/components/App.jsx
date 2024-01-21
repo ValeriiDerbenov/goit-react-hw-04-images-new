@@ -24,7 +24,7 @@ export const App = () => {
   const [loading, setLoading] = useState(false);
   const [btnLoadMore, setBtnLoadMore] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [selectedPhoto, setSelectedPhoto] = useState(null);
+  const [selectedPhoto, setSelectedPhoto] = useState('');
 
   useEffect(() => {
     if(!search) return;
@@ -79,7 +79,7 @@ export const App = () => {
     setShowModal((prev) => !prev)
   }
 
-  const onOpenModal = (photo) => {
+  const onOpenModal = (photo) => {   
     setShowModal(true);
     setSelectedPhoto(photo);
   };
@@ -96,12 +96,13 @@ export const App = () => {
       {loading && <Loader />}      
       <div className={css.container}>
       { photos && <ImageGallery photos={photos} openModal={onOpenModal}/>}
-      </div>
+      
       {photos.length !== 0 && btnLoadMore && (
         <Button onClickRender={loadMorePhoto} />
       )}
       {showModal && <Modal selectedPhoto={selectedPhoto} onClose={toggleModal}>
           </Modal>}
+      </div>
     </div>
   );
 }

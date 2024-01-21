@@ -1,8 +1,8 @@
 import css from './Button.module.css';
 
-export const Button = ({ loadMorePhoto }) => (
+export const Button = ({ onClickRender }) => (
   <div className={css.buttonContainer}>
-    <button className={css.button} type="button" onClick={loadMorePhoto}>
+    <button className={css.button} type="button" onClick={onClickRender}>
       Load more
     </button>
   </div>
