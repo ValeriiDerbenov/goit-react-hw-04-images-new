@@ -80,9 +80,10 @@ export const App = () => {
   }
   
   const onOpenModal = (largeImageURL) => {   
-    console.log(largeImageURL);  
+    // console.log(largeImageURL);  
     setShowModal(true);
     setSelectedPhoto({largeImageURL});
+    // console.log(largeImageURL);  
   };
 
   const handleSubmit = (searchValue) => {
